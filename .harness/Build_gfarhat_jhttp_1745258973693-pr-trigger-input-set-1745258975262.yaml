@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gfarhat_jhttp_1745258973693-pr-trigger-input-set
+  identifier: Build_gfarhat_jhttp_1745258973693prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gfarhat_jhttp_1745258973693
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
